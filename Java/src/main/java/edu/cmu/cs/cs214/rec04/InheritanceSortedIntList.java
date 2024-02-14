@@ -20,12 +20,6 @@ public class InheritanceSortedIntList extends SortedIntList {
         return super.add(element);
     }
 
-    @Override 
-    public boolean addAll(IntegerList elements){
-        totalAdded += elements.size();
-        return super.addAll(elements);
-    }
-
     public int getTotalAdded(){
         return totalAdded;
     }
